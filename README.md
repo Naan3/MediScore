@@ -9,7 +9,7 @@ which is based on specific parameters such as:
   - Oxygen Saturation(SpO2) - Int
   - Temperature  - Float
   - Capillary Blood Glucose (CBG) - Float
-  - Trend Monitoring for score increases - Tuples
+  - Trend Monitoring for score increases - Tuples with use of Timestamps
 
 These are what the system bases the score on.
 
@@ -36,7 +36,7 @@ These are what the system bases the score on.
     
 **Tracking and Alerting for Trends**
   - Timestamps are used to maintain a history of past scores
-  - The medi scores and timestamps are saved in a .txt file
+  - The medi scores and timestamps are saved in a .txt file for tracking patient history
   - Alert is triggered only when the patient's score increases by more than 2 points
     in 24 hours
   - The datetime module is imported to track the timestamps and figure out time differences
