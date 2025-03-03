@@ -10,6 +10,7 @@ which is based on specific parameters such as:
   - Temperature  - Float
   - Capillary Blood Glucose (CBG) - Float
   - Trend Monitoring for score increases - Tuples
+
 These are what the system bases the score on.
 
 
